@@ -1,0 +1,9 @@
+13- grep -ic "Moby" MobyDick.txt
+14-  grep -oi "Moby" MobyDick.txt | wc -l
+15- grep -iw "Moby" MobyDick.txt | wc -l
+16- grep -n "CHAPTER [0-9]\+" MobyDick.txt > capitulos.txt
+17- grep -c "^Moby" MobyDick.txt
+18. grep -c "Dick$" MobyDick.txt
+19. sed -n '/CHAPTER [0-9]\+/ {N; p}' MobyDick.txt > resum.txt
+20. sed 's/Whale/CACHALOTE/g' MobyDick.txt > cachalote.txt
+21.awk '{print $1 ":" $4}' processos.txt > processos2.txt
