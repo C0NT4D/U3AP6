@@ -1,0 +1,9 @@
+mkdir icontador
+cd icontador
+mkdir un dos tres
+echo "Ivan Contador" > un.txt
+ps aux > dos/processos.txt
+cd dos
+grep root processos.txt
+awk '{print $2, $9}' processos.txt
+grep -n root processos.txt
